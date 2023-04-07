@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 10px;
+}
+h2 {
+    text-align: center;
+}
+
+.container {
+    border:2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+
+}
+.darker {
+  border-color: #f1f;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display:table;
+}
+
+.container img {
+    float: left;
+  max-width: 55px;
+  margin-right: 20px;
+  border-radius: 70%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+</style>
+</head>
+<body>
+
+<h2>Chat Messages</h2>
+
+<div class="container">
+  <img src="Downloads/136-1361415_adventure-boy-featured-game-art-2d-game-character-png.png" alt="Avatar">
+  <p>Hello. How are you today?</p>
+  <span class="time-right">11:00</span>
+</div>
+
+<div class="container darker">
+  <img src="Downloads/how-to-draw-a-chibi-character-1.jpg" alt="Avatar" class="right">
+  <p>Hey! I'm fine. Thanks for asking!</p>
+  <span class="time-left">11:01</span>
+</div>
+
+<div class="container">
+  <img src="Downloads/136-1361415_adventure-boy-featured-game-art-2d-game-character-png.png"  alt="Avatar">
+  <p>Sweet! So, what do you wanna do today?</p>
+  <span class="time-right">11:02</span>
+</div>
+
+<div class="container darker">
+  <img src="Downloads/how-to-draw-a-chibi-character-1.jpg" alt="Avatar" class="right">
+  <p>Nah, I dunno. Play Basket Ball.. or learn more coding perhaps?</p>
+  <span class="time-left">11:05</span>
+</div>
+
+<div class="container">
+    <img src="Downloads/136-1361415_adventure-boy-featured-game-art-2d-game-character-png.png"  alt="Avatar">
+    <p>Nicee!! Have a good Day!</p>
+    <span class="time-right">11:07</span>
+  </div>
+
+  <div class="container darker">
+    <img src="Downloads/how-to-draw-a-chibi-character-1.jpg" alt="Avatar" class="right">
+    <p>Thankss, You Too!!</p>
+    <span class="time-left">11:08</span>
+  </div>
+
+</body>
+</html>
